@@ -1,6 +1,9 @@
+import './globals.css';
+
+import Header from '@/modules/header';
+import { Montserrat, Roboto } from 'next/font/google';
+
 import type { Metadata } from "next";
-import { Roboto, Montserrat } from "next/font/google";
-import "./globals.css";
 
 const roboto = Roboto({
   variable: '--font-roboto',
@@ -27,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${roboto.variable} ${montserrat.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
