@@ -19,7 +19,7 @@ export default function Banner() {
       </div>
       <div className='bg-blue-50'>
         <Container>
-            <div className='flex items-center justify-between py-4 text-gray-600 text-xs font-bold'>
+            <div className='flex items-center justify-between py-4 text-gray-600 text-[10px] font-bold md:text-xs'>
                 <div>58 pessoas obtendo serviços MEI Agora</div>
                 <div>118.330 MEI Emitidos</div>
             </div>
