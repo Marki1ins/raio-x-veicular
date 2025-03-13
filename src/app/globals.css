@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
 * {
-  margin: 0px;
-  padding: 0px;
-  font-family: var(--font-roboto)
+  font-family: var(--font-roboto);
+}
+
+:root {
+  --color-blue-50: #EBFCFF;
+  --color-blue-400: #06C1E1;
+  --color-blue-600: #04B6D5;
+  --color-blue-800: #037B90;
+  --color-blue-900: #025766;
+
+  --color-gray-200: #DEDEDE;
+  --color-gray-600: #646464;
 }
