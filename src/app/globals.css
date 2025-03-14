@@ -6,11 +6,18 @@
 
 :root {
   --color-blue-50: #EBFCFF;
+  --color-blue-300: #6DE7FC;
   --color-blue-400: #06C1E1;
+  --color-blue-500: #19D9FB;
   --color-blue-600: #04B6D5;
+  --color-blue-700: #049FBA;
   --color-blue-800: #037B90;
   --color-blue-900: #025766;
 
+  --color-gray-50: #EBF8FF;
+  --color-gray-100: #F8F8F8;
   --color-gray-200: #DEDEDE;
   --color-gray-600: #646464;
+  --color-gray-800: #292929;
+
 }
