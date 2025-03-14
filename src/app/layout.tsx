@@ -1,9 +1,10 @@
 import './globals.css';
 
-import Header from '@/modules/header';
+import Header from '@/components/header';
 import { Montserrat, Roboto } from 'next/font/google';
 
 import type { Metadata } from "next";
+import PriceTable from '@/components/price-table';
 
 const roboto = Roboto({
   variable: '--font-roboto',
@@ -32,6 +33,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <PriceTable />
       </body>
     </html>
   );
