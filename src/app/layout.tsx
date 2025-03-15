@@ -5,6 +5,7 @@ import { Montserrat, Roboto } from 'next/font/google';
 
 import type { Metadata } from "next";
 import PriceTable from '@/components/price-table';
+import DoubtsAccordion from '@/components/doubts-accordion';
 
 const roboto = Roboto({
   variable: '--font-roboto',
@@ -34,6 +35,7 @@ export default function RootLayout({
         <Header />
         {children}
         <PriceTable />
+        <DoubtsAccordion />
       </body>
     </html>
   );
