@@ -6,6 +6,8 @@
 
 :root {
   --color-blue-50: #EBFCFF;
+  --color-blue-100: #03869D;
+  --color-blue-200: #2092C3;
   --color-blue-300: #6DE7FC;
   --color-blue-400: #06C1E1;
   --color-blue-500: #19D9FB;
@@ -13,10 +15,12 @@
   --color-blue-700: #049FBA;
   --color-blue-800: #037B90;
   --color-blue-900: #025766;
-
+  
   --color-gray-50: #EBF8FF;
   --color-gray-100: #F8F8F8;
   --color-gray-200: #DEDEDE;
+  --color-gray-300: #B4B4B4;
+  --color-gray-400: #747776;
   --color-gray-500: #878787;
   --color-gray-600: #707070;
   --color-gray-700: #646464;
