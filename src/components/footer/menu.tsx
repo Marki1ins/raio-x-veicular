@@ -67,10 +67,18 @@ export default function Menu() {
           <div>
             <h6>Links Úteis</h6>
             <div className="flex flex-col gap-2 mt-4 text-xs font-normal underline">
-              <a href="" target="_blank" rel="external">
+              <a
+                href="https://meiblindado.com.br/privacy-policy?source=undefined"
+                target="_blank"
+                rel="external"
+              >
                 Política de Privacidade
               </a>
-              <a href="" target="_blank" rel="external">
+              <a
+                href="https://meiblindado.com.br/privacy-policy?source=undefined"
+                target="_blank"
+                rel="external"
+              >
                 Termo de uso
               </a>
             </div>
