@@ -297,20 +297,20 @@ export const howItWorksData = [
     id: 1,
     title: "Consulta",
     description: "Escolha a consulta mais adequada para sua necessidade.",
-    icon: <FaAngleRight />,
+    icon: <FaAngleRight className="text-6xl text-blue-500"/>,
   },
   {
     id: 2,
     title: "Placa",
     description: "Informe apenas a placa ou chassi do carro.",
-    icon: <FaAngleRight />,
+    icon: <FaAngleRight className="text-6xl text-blue-500"/>,
   },
   {
     id: 3,
     title: "Pagamento",
     description:
       "Realize o pagamento da consulta e obtenha o resultado com as informações sobre o carro em pouco tempo.",
-    icon: <FaEquals />,
+    icon: <FaEquals className="text-6xl text-blue-500" />,
   },
   {
     id: 4,
