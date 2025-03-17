@@ -249,3 +249,39 @@ export const intelligentBuyLinks = [
     link: "#"
   },
 ]
+
+export const consultationTypeData = [
+  {
+    id: 1,
+    iconPath: '/car-hovered.svg',
+    alt: "Imagem de um carro",
+    isRecommended: true,
+    title: "Consulta Veicular Completa",
+    oldPrice: "0,00",
+    currentPrice: "0,00",
+    description: "A consulta mais completa do mercado, com as informações e dados exclusívos",
+    link: "#"
+  },
+  {
+    id: 2,
+    iconPath: '/car.svg',
+    alt: "Imagem de um carro",
+    isRecommended: false,
+    title: "Consulta Veicular Completa",
+    oldPrice: "0,00",
+    currentPrice: "0,00",
+    description: "A consulta mais completa do mercado, com as informações e dados exclusívos",
+    link: "#"
+  },
+  {
+    id: 3,
+    iconPath: '/car.svg',
+    alt: "Imagem de um carro",
+    isRecommended: false,
+    title: "Consulta Veicular Completa",
+    oldPrice: "0,00",
+    currentPrice: "0,00",
+    description: "A consulta mais completa do mercado, com as informações e dados exclusívos",
+    link: "#"
+  },
+]
