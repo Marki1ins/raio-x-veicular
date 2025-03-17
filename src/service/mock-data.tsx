@@ -1,3 +1,6 @@
+import { FaEquals } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa6";
+
 export const tableData = [
   {
     id: 1,
@@ -155,133 +158,165 @@ export const intelligentBuyLinks = [
   {
     id: 1,
     column: 1,
-    iconPath: '/car-off-blue.svg',
+    iconPath: "/car-off-blue.svg",
     alt: "Ícone de um carro com uma faixa de bloqueio",
     title: "Risco de comercialização",
-    link: "#"
+    link: "#",
   },
   {
     id: 2,
     column: 1,
-    iconPath: '/car-crash.svg',
+    iconPath: "/car-crash.svg",
     alt: "Ícone de um carro batendo",
     title: "Batidas (sinistros)",
-    link: "#"
+    link: "#",
   },
   {
     id: 3,
     column: 1,
-    iconPath: '/stars.svg',
+    iconPath: "/stars.svg",
     alt: "Ícone de três estrelas",
     title: "Score de leilão",
-    link: "#"
+    link: "#",
   },
   {
     id: 4,
     column: 1,
-    iconPath: '/car-money.svg',
+    iconPath: "/car-money.svg",
     alt: "Ícone de um carro com um dinheiro",
     title: "Precificador",
-    link: "#"
+    link: "#",
   },
   {
     id: 5,
     column: 1,
-    iconPath: '/profile-pencil.svg',
+    iconPath: "/profile-pencil.svg",
     alt: "Ícone de um documento com um lápis",
     title: "Dados cadastrais Nacional",
-    link: "#"
+    link: "#",
   },
   {
     id: 6,
     column: 1,
-    iconPath: '/tool-pencil.svg',
+    iconPath: "/tool-pencil.svg",
     alt: "Ícone de papel com ferramenta com um lápis",
     title: "Ficha técnica",
-    link: "#"
+    link: "#",
   },
   {
     id: 7,
     column: 2,
-    iconPath: '/car-reload.svg',
+    iconPath: "/car-reload.svg",
     alt: "Ícone de um carro com setas indicando movimento circular",
     title: "Recalls",
-    link: "#"
+    link: "#",
   },
   {
     id: 8,
     column: 2,
-    iconPath: '/block.svg',
+    iconPath: "/block.svg",
     alt: "Ícone de um circulo com uma faixa no meio",
     title: "Restrições e Impedimentos",
-    link: "#"
+    link: "#",
   },
   {
     id: 9,
     column: 2,
-    iconPath: '/car-money-paper.svg',
+    iconPath: "/car-money-paper.svg",
     alt: "Ícone de um carro com uma folha de pagamento",
     title: "Débitos e multas",
-    link: "#"
+    link: "#",
   },
   {
     id: 10,
     column: 2,
-    iconPath: '/car-reload.svg',
+    iconPath: "/car-reload.svg",
     alt: "Ícone de um carro com setas indicando movimento circular",
     title: "Gráfico de preço",
-    link: "#"
+    link: "#",
   },
   {
     id: 11,
     column: 2,
-    iconPath: '/car-steering-wheel.svg',
+    iconPath: "/car-steering-wheel.svg",
     alt: "Ícone de um carro com o volante",
     title: "Roubo e Furto",
-    link: "#"
+    link: "#",
   },
   {
     id: 12,
     column: 2,
-    iconPath: '/hammer-judge.svg',
+    iconPath: "/hammer-judge.svg",
     alt: "Ícone de um martelo",
     title: "Dados de Leilão",
-    link: "#"
+    link: "#",
   },
-]
+];
 
 export const consultationTypeData = [
   {
     id: 1,
-    iconPath: '/car-hovered.svg',
+    iconPath: "/car-hovered.svg",
     alt: "Imagem de um carro",
     isRecommended: true,
     title: "Consulta Veicular Completa",
     oldPrice: "0,00",
     currentPrice: "0,00",
-    description: "A consulta mais completa do mercado, com as informações e dados exclusívos",
-    link: "#"
+    description:
+      "A consulta mais completa do mercado, com as informações e dados exclusívos",
+    link: "#",
   },
   {
     id: 2,
-    iconPath: '/car.svg',
+    iconPath: "/car.svg",
     alt: "Imagem de um carro",
     isRecommended: false,
     title: "Consulta Veicular Completa",
     oldPrice: "0,00",
     currentPrice: "0,00",
-    description: "A consulta mais completa do mercado, com as informações e dados exclusívos",
-    link: "#"
+    description:
+      "A consulta mais completa do mercado, com as informações e dados exclusívos",
+    link: "#",
   },
   {
     id: 3,
-    iconPath: '/car.svg',
+    iconPath: "/car.svg",
     alt: "Imagem de um carro",
     isRecommended: false,
     title: "Consulta Veicular Completa",
     oldPrice: "0,00",
     currentPrice: "0,00",
-    description: "A consulta mais completa do mercado, com as informações e dados exclusívos",
-    link: "#"
+    description:
+      "A consulta mais completa do mercado, com as informações e dados exclusívos",
+    link: "#",
   },
-]
+];
+
+export const howItWorksData = [
+  {
+    id: 1,
+    title: "Consulta",
+    description: "Escolha a consulta mais adequada para sua necessidade.",
+    icon: <FaAngleRight />,
+  },
+  {
+    id: 2,
+    title: "Placa",
+    description: "Informe apenas a placa ou chassi do carro.",
+    icon: <FaAngleRight />,
+  },
+  {
+    id: 3,
+    title: "Pagamento",
+    description:
+      "Realize o pagamento da consulta e obtenha o resultado com as informações sobre o carro em pouco tempo.",
+    icon: <FaEquals />,
+  },
+  {
+    id: 4,
+    title: "Resultado",
+    description:
+      "Receba o resultado da consulta em pouco tempo em PDF por e-mail.",
+    icon: null,
+  },
+];
