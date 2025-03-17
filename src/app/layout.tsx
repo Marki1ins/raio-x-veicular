@@ -4,17 +4,12 @@ import DoubtsAccordion from "@/components/doubts-accordion";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import PriceTable from "@/components/price-table";
-import { Montserrat, Roboto, Inter } from "next/font/google";
+import { Roboto, Inter } from "next/font/google";
 
 import type { Metadata } from "next";
 
 const roboto = Roboto({
   variable: "--font-roboto",
-  subsets: ["latin"],
-});
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
@@ -36,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${montserrat.variable} ${inter.variable} antialiased`}>
+      <body className={`${roboto.variable}  ${inter.variable} antialiased`}>
         <Header />
         {children}
         <PriceTable />
