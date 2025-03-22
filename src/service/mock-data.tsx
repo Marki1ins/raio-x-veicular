@@ -320,3 +320,90 @@ export const howItWorksData = [
     icon: null,
   },
 ];
+
+export const completedConsultation = [
+  {
+    id: 1,
+    iconPath: "/profile-pencil.svg",
+    title: "Dados cadastrais Nacional",
+    status: "TUDO OK",
+  },
+  {
+    id: 2,
+    iconPath: "/profile-pencil.svg",
+    title: "Dados Cadastrais Estadual",
+    status: "TUDO OK",
+  },
+  {
+    id: 3,
+    iconPath: "/car-reload.svg",
+    title: "Gravame",
+    status: "TUDO OK",
+  },
+  {
+    id: 4,
+    iconPath: "/profile.svg",
+    title: "Quantidade de proprietários",
+    status: "TUDO OK",
+  },
+  {
+    id: 5,
+    iconPath: "/car-money-paper.svg",
+    title: "Débitos e multas",
+    status: "Possui Problemas",
+  },
+  {
+    id: 6,
+    iconPath: "/car-crash.svg",
+    title: "Batidas (sinistros)",
+    status: "TUDO OK",
+  },
+  {
+    id: 7,
+    iconPath: "/car-crash.svg",
+    title: "Recall",
+    status: "TUDO OK",
+  },
+  {
+    id: 8,
+    iconPath: "/car-steering-wheel.svg",
+    title: "Roubo e Furto",
+    status: "TUDO OK",
+  },
+  {
+    id: 9,
+    iconPath: "/car-money-paper.svg",
+    title: "Restrições Nacionais",
+    status: "Possui Problemas",
+  },
+  {
+    id: 10,
+    iconPath: "/profile-pencil.svg",
+    title: "Restrições Estaduais",
+    status: "TUDO OK",
+  },
+  {
+    id: 11,
+    iconPath: "/profile.svg",
+    title: "Detalhes Renajud",
+    status: "TUDO OK",
+  },
+  {
+    id: 12,
+    iconPath: "/profile.svg",
+    title: "Aceitação em Seguros",
+    status: "TUDO OK",
+  },
+  {
+    id: 13,
+    iconPath: "/profile.svg",
+    title: "Aceitação em Comercialização",
+    status: "FIQUE ATENTO",
+  },
+  {
+    id: 14,
+    iconPath: "/profile.svg",
+    title: "Aceitação em Comercialização",
+    status: "FIQUE ATENTO",
+  },
+]
