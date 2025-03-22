@@ -28,7 +28,7 @@ export default function Hero() {
   const onSubmit = async (data: HeroSchema) => {
     setIsModalOpen(true);
     setTimeout(() => {
-      router.push(`/consultation/${data.carPlate}`);
+      router.push(`/consulta/${data.carPlate}`);
     }, 5000);
   };
 
