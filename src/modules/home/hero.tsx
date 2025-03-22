@@ -25,10 +25,11 @@ export default function Hero() {
     resolver: zodResolver(heroSchema),
   });
 
-  const onSubmit = (data: HeroSchema) => {
+  const onSubmit = async (data: HeroSchema) => {
     setIsModalOpen(true);
-    //todo: adicionar o component do modal aqui
-    router.push(`/consultation/${data.carPlate}`);
+    setTimeout(() => {
+      router.push(`/consultation/${data.carPlate}`);
+    }, 5000);
   };
 
   return (
