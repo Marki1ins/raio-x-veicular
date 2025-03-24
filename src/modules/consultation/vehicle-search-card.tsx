@@ -10,7 +10,7 @@ export default function VehicleSearchCard() {
         </h2>
         <div className="flex items-center justify-between">
           <Image
-            className="hidden xl:block"
+            className="hidden xl:flex mx-auto"
             src={peugeot}
             alt="Logo de um carro"
             width={100}
