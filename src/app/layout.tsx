@@ -1,10 +1,6 @@
-import "./globals.css";
+import './globals.css';
 
-import DoubtsAccordion from "@/components/doubts-accordion";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import PriceTable from "@/components/price-table";
-import { Roboto, Inter } from "next/font/google";
+import { Inter, Roboto } from 'next/font/google';
 
 import type { Metadata } from "next";
 
@@ -32,11 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${roboto.variable}  ${inter.variable} antialiased`}>
-        <Header />
         {children}
-        <PriceTable />
-        <DoubtsAccordion />
-        <Footer />
       </body>
     </html>
   );
