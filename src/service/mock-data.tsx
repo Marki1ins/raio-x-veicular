@@ -407,3 +407,20 @@ export const completedConsultation = [
     status: "FIQUE ATENTO",
   },
 ]
+
+export const paymentIcons = [
+  {
+    id: 1,
+    iconPath: "/credit-card.svg",
+    iconAlt: "Imagem de um cartão de crédito",
+    size: 17.68,
+    title: "Pague no cartão de crédito em 12 vezes"
+  },
+  {
+    id: 2,
+    iconPath: "/shield.svg",
+    iconAlt: "Imagem de um escudo",
+    size: 21.21,
+    title: "Garantia de serviço"
+  }
+]
