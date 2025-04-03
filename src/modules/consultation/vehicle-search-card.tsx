@@ -1,7 +1,14 @@
+"use client";
+
 import peugeot from "@/assets/peugeot.png";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function VehicleSearchCard() {
+  const router = useRouter();
+  const [payment, setPayment] = useState("121543");
+
   return (
     <div className="flex flex-col items-start justify-start gap-3 mb-7 font-inter md:flex-row">
       <div className="flex-1 p-5 border-2 border-blue-600 rounded-xl">
@@ -76,7 +83,10 @@ export default function VehicleSearchCard() {
             /por Consulta
           </span>
         </div>
-        <button className="px-20 py-5 font-semibold uppercase bg-blue-600 cursor-pointer text-gray-50 rounded-xl">
+        <button
+          className="px-20 py-5 font-semibold uppercase bg-blue-600 cursor-pointer text-gray-50 rounded-xl"
+          onClick={() => router.push(`/pagamento/${payment}`)}
+        >
           Comprar
         </button>
       </div>
