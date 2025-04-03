@@ -1,7 +1,8 @@
-import Steps from '@/components/steps/steps';
-import { paymentIcons } from '@/service/mock-data';
-import Image from 'next/image';
-import { FaArrowRight } from 'react-icons/fa';
+import { paymentIcons } from "@/service/mock-data";
+import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa";
+
+import Steps from "./steps";
 
 export default function PaymentCardOverview() {
   return (
@@ -45,7 +46,9 @@ export default function PaymentCardOverview() {
         ))}
       </div>
       <div className="flex items-center justify-between gap-4 font-semibold text-gray-50">
-        <button className="w-full py-4 bg-gray-300 cursor-pointer rounded-xl">Cancelar</button>
+        <button className="w-full py-4 bg-gray-300 cursor-pointer rounded-xl">
+          Cancelar
+        </button>
         <button className="flex items-center justify-center w-full gap-2 py-4 bg-blue-700 cursor-pointer rounded-xl">
           <span>Realizar Pagamento</span>
           <FaArrowRight />

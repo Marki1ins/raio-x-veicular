@@ -18,12 +18,12 @@ export default function DoubtsAccordion() {
         <h3 className="mb-2.5 text-3xl text-blue-800 font-bold">
           Está com Dúvidas?
         </h3>
-        <p className="w-full mx-auto text-lg text-gray-500 font-light md:max-w-8/12">
+        <p className="w-full mx-auto text-lg font-light text-gray-500 md:max-w-8/12">
           Confira abaixo se a sua dúvida já foi respondida. E, caso não encontre
           uma resposta, entre em contato com a gente e iremos te auxiliar o
           máximo possível.
         </p>
-        <p className="max-w-6/12 mx-auto mb-8 text-lg text-gray-500 font-light">
+        <p className="mx-auto mb-8 text-lg font-light text-gray-500 max-w-6/12">
           O que é a Raio X Veicular?
         </p>
 
@@ -31,7 +31,7 @@ export default function DoubtsAccordion() {
           {accordionData.map((data) => (
             <div
               key={data.id}
-              className="pb-5 border-b-4 border-b-blue-300 text-blue-700 text-2xl text-left font-bold"
+              className="pb-5 text-2xl font-bold text-left text-blue-700 border-b-4 border-b-blue-300"
             >
               <div
                 className="flex items-center justify-between cursor-pointer"
