@@ -1,9 +1,9 @@
-import DoubtsAccordion from "@/components/doubts-accordion";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import PriceTable from "@/components/price-table";
 import Container from "@/layout";
 
+import DoubtsAccordion from "../home/doubts-accordion";
 import CompletedConsultation from "./completed-consultation";
 import VehicleSearchCard from "./vehicle-search-card";
 

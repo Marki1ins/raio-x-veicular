@@ -3,6 +3,7 @@
 import { UserPaymentSchema, userPaymentSchema } from "@/validations/payment";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import PaymentType from "./payment-type";
 
 export default function PaymentCardForm() {
   const {
@@ -118,6 +119,9 @@ export default function PaymentCardForm() {
           </div>
         </div>
       </form>
+      
+      {/* renderizar apenas quando o botão de pagamento for acionado, após os dados serem preenchidos */}
+      <PaymentType />
     </div>
   );
 }

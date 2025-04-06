@@ -11,20 +11,22 @@ export default function VehicleSearchCard() {
 
   return (
     <div className="flex flex-col items-start justify-start gap-3 mb-7 font-inter md:flex-row">
-      <div className="flex-1 p-5 border-2 border-blue-600 rounded-xl">
+      <div className="flex-1 p-5 border-2 border-blue-600 rounded-xl w-full">
         <h2 className="mb-3.5 py-3.5 px-6 bg-blue-900 rounded-xl text-lg text-gray-50 font-bold ">
           Veículo encontrado com sucesso!
         </h2>
-        <div className="flex items-center justify-between">
-          <Image
-            className="hidden xl:flex mx-auto"
-            src={peugeot}
-            alt="Logo de um carro"
-            width={100}
-            height={100}
-          />
-          <div className="text-lg text-blue-900">
-            <div className="flex items-center gap-3 mb-3 text-xl font-bold bg-blue-800 p-7 rounded-xl text-gray-50">
+        <div className="flex items-center justify-between gap-3">
+          <div className="max-w-[240]">
+            <Image
+              className="hidden xl:flex mx-auto  bg-gray-100 rounded-xl p-2"
+              src={peugeot}
+              alt="Logo de um carro"
+              width={220}
+              height={220}
+            />
+          </div>
+          <div className="text-lg text-blue-900 flex-1">
+            <div className="flex items-center gap-3 mb-3 text-sm lg:text-xl font-bold bg-blue-800 p-7 rounded-xl text-gray-50">
               <div className="flex items-center gap-1">
                 <Image
                   src="/car-money-paper.svg"
@@ -63,7 +65,7 @@ export default function VehicleSearchCard() {
           </div>
         </div>
       </div>
-      <div className="flex-1 p-5 border-2 border-blue-600 rounded-xl max-w-[500]">
+      <div className="flex-1 p-5 border-2 border-blue-600 rounded-xl w-full lg:max-w-[500]">
         <h2 className="mb-5 text-2xl font-semibold text-blue-800">
           Tudo o que Você Precisa Saber Antes de Comprar um Veículo
         </h2>

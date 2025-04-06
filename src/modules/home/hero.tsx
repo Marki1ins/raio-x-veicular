@@ -27,6 +27,7 @@ export default function Hero() {
 
   const onSubmit = async (data: HeroSchema) => {
     setIsModalOpen(true);
+    //todo!: adicionar a lógica de redirecionamento aqui...
     setTimeout(() => {
       router.push(`/consulta/${data.carPlate}`);
     }, 5000);
