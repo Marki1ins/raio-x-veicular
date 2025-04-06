@@ -310,7 +310,7 @@ export const howItWorksData = [
     title: "Pagamento",
     description:
       "Realize o pagamento da consulta e obtenha o resultado com as informações sobre o carro em pouco tempo.",
-    icon: <FaEquals className="text-6xl text-blue-500" />,
+    icon: <FaEquals className="text-8xl text-blue-500 lg:text-9xl" />,
   },
   {
     id: 4,
